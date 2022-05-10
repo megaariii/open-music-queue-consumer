@@ -15,7 +15,7 @@ class MailSender {
 
   sendEmail(targetEmail, content) {
     const message = {
-      from: 'Open Music',
+      from: 'Open Music App',
       to: targetEmail,
       subject: 'Ekspor Playlists',
       text: 'Terlampir hasil dari ekspor playlist',
